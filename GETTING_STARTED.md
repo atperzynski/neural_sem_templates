@@ -37,6 +37,13 @@ pre-commit hook in `.githooks/` that refuses a commit containing a data file, an
 runs on GitHub or GitLab after every push. A download of the project from HOT-NUX-SEM may include
 the data for your own use, and the data in such a download stay out of Git all the same.
 
+You are responsible for how you handle your data. Each use of HOT-NUX-SEM with a dataset must
+follow the terms under which you hold the data, including any data use agreement, the applicable
+privacy laws and regulations, and the requirements of your institutional review board. A
+repository made from the link in the app is public unless Private is chosen, and a public
+repository can be read by anyone, so a project whose column names, data dictionary, counts or
+results could describe restricted data belongs in a private repository.
+
 ## Getting the project onto your computer
 
 **If the project is already on GitHub or GitLab**, the simplest route is GitHub Desktop

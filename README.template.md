@@ -7,6 +7,14 @@ This repository holds the structural equation model *{{MODEL_NAME}}*, built in H
 recipe and the scripts that reproduce it in R. The data themselves are never kept here, and a copy
 of `{{DATA_FILE}}` is placed in `data/` on each computer that runs the analysis.
 
+## Your data
+
+You are responsible for how you handle your data. Each use of HOT-NUX-SEM with a dataset must
+follow the terms under which you hold the data, including any data use agreement, the applicable
+privacy laws and regulations, and the requirements of your institutional review board. A public
+repository can be read by anyone, so a project whose column names, data dictionary, counts or
+results could describe restricted data belongs in a private repository.
+
 ## What is in the project
 
 | Path | What it holds |

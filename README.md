@@ -10,8 +10,8 @@ pushed, and the same files ship inside the app for people who use GitLab or work
 
 ## Starting a project from the template
 
-The usual route is to build the model in HOT-NUX-SEM, create an empty private repository on GitHub
-or GitLab with the link the **Pack** tab offers, and push the project into it from the app, which
+The usual route is to build the model in HOT-NUX-SEM, create an empty repository on GitHub or
+GitLab with the link the **Pack** tab offers, and push the project into it from the app, which
 writes these files filled with the model. A project folder can also be downloaded from the **Pack**
 tab and put on GitHub with GitHub Desktop, and a person who can see this repository can start a
 project here with **Use this template**. In either case, the steps for RStudio,
