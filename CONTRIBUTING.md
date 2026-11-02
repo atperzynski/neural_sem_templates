@@ -19,8 +19,7 @@ anyone makes it, and the pull request template asks for the checks a reviewer wi
 The model is changed in HOT-NUX-SEM rather than by editing the files by hand, because the app fits
 the model, checks that it is identified, and writes the model, the lavaan script, the dictionary
 and the results together. After the change is made in the app, the project folder is saved over
-the local copy, or pushed from the app by an administrator, and the changed files are committed on
-the branch. A hand edit to `model/model.lav` is possible, and the project is then opened again in
+the local copy, or pushed from the app, and the changed files are committed on the branch. A hand edit to `model/model.lav` is possible, and the project is then opened again in
 the app so that the other files are written from the edited model.
 
 ## What a reviewer checks

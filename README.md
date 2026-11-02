@@ -10,10 +10,11 @@ pushed, and the same files ship inside the app for people who use GitLab or work
 
 ## Starting a project from the template
 
-The usual route is to build the model in HOT-NUX-SEM and save the project folder from the **Pack**
-tab, or to push it from the app, which creates a private repository from these files. A project can
-also be started here with **Use this template**, after which the files written by the app are
-copied into the new repository when the model is ready. In either case, the steps for RStudio,
+The usual route is to build the model in HOT-NUX-SEM, create an empty private repository on GitHub
+or GitLab with the link the **Pack** tab offers, and push the project into it from the app, which
+writes these files filled with the model. A project folder can also be downloaded from the **Pack**
+tab and put on GitHub with GitHub Desktop, and a person who can see this repository can start a
+project here with **Use this template**. In either case, the steps for RStudio,
 Positron, GitHub Desktop and the command line are in `GETTING_STARTED.md`, and the way a team works
 on one model is in `CONTRIBUTING.md`.
 

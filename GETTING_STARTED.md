@@ -7,6 +7,27 @@ the work with co-authors through GitHub or GitLab. Each section stands on its ow
 already uses Git can go straight to *Running the analysis*. The data of the project never enter the
 repository, and the first section explains why and how that rule is kept.
 
+## Why a model is kept in Git
+
+A structural equation model is usually revised many times between the first diagram and the one
+that is reported, and a Git repository records every version of the model with its date, its
+author and the reason the change was made. Co-authors and reviewers can then follow the path from
+the hypothesized model to the reported one, and Ram (2013) and Bryan (2018) describe this
+transparency as a benefit of version control for researchers who analyse data. Version control is
+also recommended among the basic practices of scientific computing by Wilson and colleagues
+(2017), and Blischak, Davenport and Wilson (2016) give a short introduction for researchers who
+have not used Git before.
+
+- Blischak JD, Davenport ER, Wilson G. A quick introduction to version control with Git and GitHub.
+  PLoS Computational Biology. 2016;12(1):e1004668. doi:10.1371/journal.pcbi.1004668
+- Bryan J. Excuse me, do you have a moment to talk about version control? The American
+  Statistician. 2018;72(1):20-27. doi:10.1080/00031305.2017.1399928
+- Ram K. Git can facilitate greater reproducibility and increased transparency in science. Source
+  Code for Biology and Medicine. 2013;8:7. doi:10.1186/1751-0473-8-7
+- Wilson G, Bryan J, Cranston K, Kitzes J, Nederbragt L, Teal TK. Good enough practices in
+  scientific computing. PLoS Computational Biology. 2017;13(6):e1005510.
+  doi:10.1371/journal.pcbi.1005510
+
 ## The rule about data
 
 No row of data is ever committed to this repository, whether on GitHub, GitLab or a university
@@ -78,9 +99,10 @@ git push -u origin add-sleep-fatigue     # share the branch and open a pull requ
 ## Bringing a change back from HOT-NUX-SEM
 
 A change to the model is made in HOT-NUX-SEM, where it is fitted and checked, and the app then
-writes the project files again. Save the project folder from the **Pack** tab over the folder on
-your computer, or, if you are an administrator, push it from the app, and commit the files that
-changed. The app writes `model/model.lav`, `model/lavaan_check.R`, `data-dict.yaml`, `clean.R`,
+writes the project files again. Either save the project folder from the **Pack** tab over the folder on
+your computer and commit the files that changed, or push the project from the app into this
+repository with one line under **What changed**, which becomes the reason recorded with the new
+version. The app writes `model/model.lav`, `model/lavaan_check.R`, `data-dict.yaml`, `clean.R`,
 `cleaning.recipe.json` and the files in `results/` together, so they always describe the same
 model, and a commit of all of them keeps the history readable.
 
