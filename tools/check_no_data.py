@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Proprietary. All rights reserved. Licence to be determined by the inventors.
+# Copyright 2026 Adam T. Perzynski. Licensed under the Apache License, Version 2.0 (TEMPLATE_LICENSE.txt).
 """Refuse a commit or a push that would put data into the repository.
 
 A HOT-NUX-SEM project keeps its model, its data dictionary, its cleaning recipe and its scripts in

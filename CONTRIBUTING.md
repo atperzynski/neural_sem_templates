@@ -1,6 +1,6 @@
 # Working on this model together
 
-Proprietary. All rights reserved. Licence to be determined by the inventors.
+Copyright 2026 Adam T. Perzynski. Licensed under the Apache License, Version 2.0 (TEMPLATE_LICENSE.txt).
 
 This project is kept in Git so that every change to the model, the data dictionary or the cleaning
 recipe is recorded with its reason and reviewed by a co-author before it is accepted. The practice

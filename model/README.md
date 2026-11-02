@@ -1,6 +1,6 @@
 # The model folder
 
-Proprietary. All rights reserved. Licence to be determined by the inventors.
+Copyright 2026 Adam T. Perzynski. Licensed under the Apache License, Version 2.0 (TEMPLATE_LICENSE.txt).
 
 This folder holds the model in lavaan syntax (`model.lav`), the lavaan script that refits the model
 and compares lavaan's numbers with the app's (`lavaan_check.R`), and the Mplus input file

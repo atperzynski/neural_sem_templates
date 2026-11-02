@@ -1,5 +1,5 @@
 #!/bin/sh
-# Proprietary. All rights reserved. Licence to be determined by the inventors.
+# Copyright 2026 Adam T. Perzynski. Licensed under the Apache License, Version 2.0 (TEMPLATE_LICENSE.txt).
 #
 # Refuses a commit that would add data to the repository. Turn it on once per clone with
 #     git config core.hooksPath .githooks

@@ -1,6 +1,6 @@
 # Getting started with a HOT-NUX-SEM project
 
-Proprietary. All rights reserved. Licence to be determined by the inventors.
+Copyright 2026 Adam T. Perzynski. Licensed under the Apache License, Version 2.0 (TEMPLATE_LICENSE.txt).
 
 This guide takes a project saved from HOT-NUX-SEM to a computer, runs the analysis in R, and shares
 the work with co-authors through GitHub or GitLab. Each section stands on its own, so a reader who

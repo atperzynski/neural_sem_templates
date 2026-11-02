@@ -3,7 +3,7 @@ name: Propose a change to the model
 about: A path, a covariance, an equality or a variable to add, drop or hold equal
 labels: model
 ---
-<!-- Proprietary. All rights reserved. Licence to be determined by the inventors. -->
+<!-- Copyright 2026 Adam T. Perzynski. Licensed under the Apache License, Version 2.0 (TEMPLATE_LICENSE.txt). -->
 
 ## The change
 

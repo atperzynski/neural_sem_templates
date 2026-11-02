@@ -1,7 +1,5 @@
 # {{TITLE}}
 
-Proprietary. All rights reserved. Licence to be determined by the inventors.
-
 This repository holds the structural equation model *{{MODEL_NAME}}*, built in HOT-NUX-SEM on
 {{CREATED}} from the data file `{{DATA_FILE}}`, together with its data dictionary, its cleaning
 recipe and the scripts that reproduce it in R. The data themselves are never kept here, and a copy
@@ -36,3 +34,12 @@ fitted to, and `GETTING_STARTED.md` describes each step, the Git commands and th
 ## The model at the time it was saved
 
 {{FIT_LINE}}
+
+## The files that came from the template
+
+The files that came from the HOT-NUX-SEM project template, namely the data check in `tools/`, the
+hook in `.githooks/`, the pipelines, the issue and merge request templates, `.gitignore`, the
+guides and the starting copies of `analysis.R` and `clean.R`, are Copyright 2026 Adam T. Perzynski
+and licensed under the Apache License, Version 2.0, whose text is in `TEMPLATE_LICENSE.txt`. The
+model, the dictionary, the results and every other file in this repository belong to the project's
+authors, and the licence of the template files does not apply to them.

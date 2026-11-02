@@ -1,6 +1,6 @@
 # HOT-NUX-SEM project template
 
-Proprietary. All rights reserved. Licence to be determined by the inventors.
+Copyright 2026 Adam T. Perzynski. Licensed under the Apache License, Version 2.0 (TEMPLATE_LICENSE.txt).
 
 This repository is the template from which every HOT-NUX-SEM project repository is made, so that a
 model built in the app can be reproduced in R, shared with co-authors and reviewed on GitHub or
@@ -34,3 +34,10 @@ Python standard library only.
 the fit, and `analysis.R` names the project's data file. The app also writes `data-dict.yaml`,
 `clean.R`, `cleaning.recipe.json`, `hotsem-project.json` and the contents of `model/` and
 `results/`, and none of those files holds a row of data.
+
+## Licence
+
+The files of this template are Copyright 2026 Adam T. Perzynski and licensed under the Apache
+License, Version 2.0, whose text is in `TEMPLATE_LICENSE.txt`, so that researchers may reuse them in
+their own repositories, including public ones. The licence covers the template's files only, and
+the model, results and other files a researcher adds belong to that researcher.
