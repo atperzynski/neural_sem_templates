@@ -1,0 +1,19 @@
+# Proprietary. All rights reserved. Licence to be determined by the inventors.
+#
+# The same two checks as .github/workflows/check.yml, for a project kept on GitLab: no file of data
+# has been committed, and the model in model/model.lav is valid lavaan syntax.
+stages:
+  - check
+
+no-data:
+  stage: check
+  image: python:3.12-slim
+  script:
+    - python tools/check_no_data.py
+
+model-parses:
+  stage: check
+  image: rocker/r-ver:4.4
+  script:
+    - if [ ! -f model/model.lav ]; then echo "No model has been saved to this project yet."; exit 0; fi
+    - Rscript -e 'install.packages("lavaan", quiet = TRUE); pt <- lavaan::lavaanify(paste(readLines("model/model.lav"), collapse = "\n")); cat(nrow(pt), "rows in the parameter table, so the model syntax parses.\n")'

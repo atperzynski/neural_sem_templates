@@ -1,0 +1,46 @@
+# Proprietary. All rights reserved. Licence to be determined by the inventors.
+#
+# No row of data is ever committed to this repository. The data stay in data/ on the computers
+# of the people who analyse them, and tools/check_no_data.py refuses a commit that would add one.
+
+# the data, kept locally
+data/*
+!data/README.md
+!data/.gitkeep
+
+# data formats anywhere else in the project
+*.sav
+*.zsav
+*.por
+*.dta
+*.sas7bdat
+*.sas7bcat
+*.xpt
+*.xls
+*.xlsx
+*.xlsm
+*.ods
+*.parquet
+*.feather
+*.arrow
+*.rds
+*.rda
+*.RData
+*.rdata
+*.dat
+*.sqlite
+*.db
+
+# R and RStudio
+.Rhistory
+.Rapp.history
+.Rproj.user/
+.RDataTmp
+renv/library/
+renv/staging/
+
+# Positron, VS Code and the operating systems
+.positron/
+.vscode/
+.DS_Store
+Thumbs.db
